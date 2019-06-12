@@ -1,6 +1,6 @@
 # React & Redux
 
-# React - A JavaScript library for building user interfaces
+# React - A Declarative, Component-based JavaScript library for building User Interfaces
 * It is a JS library that aims to simplify development of visual interfaces
 * Its primary goal is to divide the UI into a collection of components
 * React only chose to implement the View layer instead of the full MVC stack
@@ -15,7 +15,7 @@
 
 ## Use create-react-app
 
-```node
+```js
 npx create-react-app <app-name>
 ```
 When you run *npx create-react-app app-name* , npx is going to download the most recent *create-react-app* release, run it, and then remove it from your system. This is great because you will never have an outdated version on your system, and every time you run it, you're getting the latest and greatest code available
@@ -539,11 +539,13 @@ React Applications are also called Single Page Applications.
 
 This problem can now be solved using the History API offered by browsers, but most of the time you'll use a library that internally uses that API, like React Router.
 
-## Declarative
+## Declarative Programming - what you do rather than how you do
 React is declarative.
 Declarative means:
 * you can build Web interfaces without even touching the DOM directly
 * you can have an event system without having to interact with the actual DOM Events
+
+Example: HTML, SQL, React, etc
 
 In iterative, you tell the browser exactly what to do, instead of telling it what you need.
 
